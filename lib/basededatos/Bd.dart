@@ -1,8 +1,11 @@
 import 'package:deliveryapp/modelo/Categoria.dart';
+import 'package:deliveryapp/modelo/Subcategoria.dart';
+import 'package:deliveryapp/modelo/Producto.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:io' as io;
+// dbmanager
 
 class DBHelper{
   static Database _db;
@@ -50,13 +53,13 @@ class DBHelper{
           lista[i]["urlfoto"]
       )
       );
-      retrurn categoria;
+      return categoria;
     }
 
 
   }
   // metodos subcategoria
-  Future<int> saveSubcategoria(Subcategoria categoria) async{
+  Future<int> saveSubcategoria(Subcategoria subcategoria) async{
     var dbCliente = await bd;
     int response = await dbCliente.insert("subcategoria", subcategoria.toMap());
     return response;
@@ -75,9 +78,45 @@ class DBHelper{
           lista[i]["categorias_id"]
       )
       );
-      retrurn categoria;
+      return subcategoria;
     }
 
 
   }
+
+  // metodos productos
+  Future<int> saveProducto(Producto p) async{
+    var dbCliente = await bd;
+    int response = await dbCliente.insert("producto", p.toMap());
+    return response;
+  }
+
+  Future<List<Producto>> getProducto(String condicion) async{
+    var dbCliente = await bd;
+    List<Map> lista = await dbCliente.rawQuery("SELECT * FROM PRODUCTO WHERE"+condicion);
+    List<Producto> producto = new List();
+
+    for(int i=0;i<lista.length;i++){
+      producto.add(new Producto(
+          lista[i]["id"],
+          lista[i]["nombre"],
+          lista[i]["descripcion"],
+          lista[i]["precio"],
+          lista[i]["urlfoto"],
+          lista[i]["unidad"],
+          lista[i]["subcategorias_id"]
+      )
+      );
+      return producto;
+    }
+
+
+  }
+
+  //borrar regidstros vaciar
+  Future<int> deleteTable(String tabla, String condicion) async{
+    var dbCliente = await bd;
+    return await dbCliente.rawDelete("delete from "+tabla+"where"+condicion);
+  }
+
 }

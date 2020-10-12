@@ -4,13 +4,11 @@
     <list default="true" id="b292d733-e2d8-4a59-b07c-b73106b4cd06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/basededatos/Bd.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/basededatos/Bd.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modelo/Categoria.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelo/Categoria.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/modelo/Producto.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelo/Producto.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modelo/Subcategoria.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelo/Subcategoria.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +68,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="964" height="106" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602109022898" />
-    <state x="381" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1602529641814">
+    <state x="381" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1602534373007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="216" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602529641814" />
+    <state x="381" y="216" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602534373007" />
   </component>
 </project>

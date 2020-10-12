@@ -24,7 +24,7 @@ class Producto{
     map['nombre']=nombre;
     map['description']=description;
     map['precio']=precio;
-    map['urlfoto']=;
+    map['urlfoto']=urlfoto;
     map['unidad']=unidad;
     map['subcategorias_id']=subcategorias_id;
   }
