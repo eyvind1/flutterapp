@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b292d733-e2d8-4a59-b07c-b73106b4cd06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/api/Api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/Api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/basededatos/Bd.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/basededatos/Bd.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modelo/Categoria.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelo/Categoria.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modelo/Producto.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelo/Producto.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,21 +54,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="964" height="106" key="GridCell.Tab.0.bottom" timestamp="1602106817389">
+    <state width="964" height="106" key="GridCell.Tab.0.bottom" timestamp="1602109022898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="964" height="106" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602106817389" />
-    <state width="964" height="106" key="GridCell.Tab.0.center" timestamp="1602106817389">
+    <state width="964" height="106" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602109022898" />
+    <state width="964" height="106" key="GridCell.Tab.0.center" timestamp="1602109022898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="964" height="106" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602106817389" />
-    <state width="964" height="106" key="GridCell.Tab.0.left" timestamp="1602106817388">
+    <state width="964" height="106" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602109022898" />
+    <state width="964" height="106" key="GridCell.Tab.0.left" timestamp="1602109022898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="964" height="106" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602106817388" />
-    <state width="964" height="106" key="GridCell.Tab.0.right" timestamp="1602106817389">
+    <state width="964" height="106" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602109022898" />
+    <state width="964" height="106" key="GridCell.Tab.0.right" timestamp="1602109022898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="964" height="106" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602106817389" />
+    <state width="964" height="106" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602109022898" />
+    <state x="381" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1602529641814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="216" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602529641814" />
   </component>
 </project>
