@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b292d733-e2d8-4a59-b07c-b73106b4cd06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/carrito/CarritoCompra.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/carrito/Carrito.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/carrito/Carrito.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,9 +74,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="998" height="106" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602540500227" />
-    <state x="381" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1602616255950">
+    <state x="381" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1602789097175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="216" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602616255950" />
+    <state x="381" y="216" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602789097175" />
   </component>
 </project>
